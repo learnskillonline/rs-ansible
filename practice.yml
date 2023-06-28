@@ -1,0 +1,4 @@
+- name: test playbook
+  hosts: all
+  become: yes
+  ansible.builtin.shell: echo "test"
