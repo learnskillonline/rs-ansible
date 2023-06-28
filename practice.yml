@@ -4,3 +4,5 @@
   tasks:
     - name: just printing using shell
       ansible.builtin.shell: echo "test"
+    - name: set host name
+      ansible.builtin.shell: set-hostname ansible
